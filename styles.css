@@ -1,0 +1,104 @@
+* {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 25px;
+  background-color: rgb(241, 236, 157);
+}
+
+header,
+main,
+figure,
+footer,
+nav {
+  margin: 25px 0px;
+  padding: 20px;
+}
+
+h1 {
+  color: rgb(5, 70, 10);
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 0px;
+}
+
+.green-border {
+  border: 4px double rgb(5, 70, 10);
+}
+
+.blue-border {
+  border: 4px double deepskyblue;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(5, 70, 10);
+  text-decoration-line: underline;
+}
+
+a:visited {
+  color: rgb(5, 70, 10);
+  text-decoration: none;
+}
+
+h3 em {
+  text-decoration-line: underline;
+}
+
+figcaption {
+  font-size: small;
+  font-family: cursive;
+  text-align: inherit;
+}
+
+img.photo {
+  border: 1px solid #999;
+  background-color: #fcfcfc;
+  padding: 2px;
+}
+
+#logo {
+  padding-top: 15px;
+}
+
+.ul-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.li-nav {
+  list-style-type: none;
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 120px 14px 0px;
+  text-decoration: none;
+}
